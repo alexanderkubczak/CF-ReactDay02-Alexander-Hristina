@@ -1,24 +1,48 @@
+*{
+	margin: 0;
+}
+
+.App{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
 
 .header {
+  width: 100%;
   padding: 2vw;
   background-color: #FDDA01;
+  flex-basis: 100%;
+  margin-bottom: 2vw;
 }
 
 .nav {
+  width: 18%;
   padding: 2vw;
   background-color: #FDDA01;
-}
+/*   margin-right:  1vw;
+ */}
 
 .article {
+  width: 48%;
   padding: 2vw;
   background-color: #FDDA01;
-}
+  height: 25vw;
+/*   margin-right:  1vw;
+ */}
 
 .ads {
+  width:  18%;
   padding: 2vw;
   background-color: #FDDA01;
 }
 
-
+.footer {
+  width:  100%;
+  padding: 2vw;
+  background-color: #FDDA01;
+  margin-top: 2vw;
+}
 
 

@@ -3,6 +3,7 @@ import Header from './header';
 import Nav from './nav'
 import Article from './article';
 import Ads from './ads';
+import Footer from './footer';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Nav/>
         <Article/>
         <Ads/>
+        <Footer/>
       </div>
       );
 }
