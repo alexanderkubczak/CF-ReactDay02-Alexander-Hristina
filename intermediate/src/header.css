@@ -1,0 +1,9 @@
+p {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+img {
+	width: 8vw;
+}
