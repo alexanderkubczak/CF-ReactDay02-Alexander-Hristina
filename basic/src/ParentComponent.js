@@ -6,9 +6,9 @@ class ParentComponent extends Component{
 	render(){
 		return(
 		<div className="ParentComponent">
-		I'm the Parent Component!
-		<img alt="logo" src={require('./img/logo.png')}/>
-		<FirstChildComponent/>
+			<p>I'm the Parent Component!</p>
+			<img alt="logo" src={require('./img/logo.png')}/>
+			<FirstChildComponent/>
 		</div>
 		);
 	}
